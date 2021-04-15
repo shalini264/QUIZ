@@ -1,222 +1,190 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width,initial-scale:1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-</head>
+	<meta name="viewport" content="width=device-width,initial-scale:1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> </head>
+
 <body>
-<div class="w3-card-4 w3-blue;">
-<div class="w3-container w3-circle w3-serif w3-card-4 w3-red w3-leftbar w3-center">
-<img src="https://media3.giphy.com/media/l3vR85PnGsBwu1PFK/source.gif" style="width:20%">
-<h1>KAUN BNEGA TECHPATI</h1>
-</div>
-<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
-<h2>what is the part of database that holds only one type of information?</h2></div>
-<div class="w3-container w3-brown  w3-text-yellow">
-<h2><input id="p1" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
-<label>Report</label></h2>
-<h2><input id="p2" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
-<label>Record</label></h2>
-<h2><input id="p3" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
-<label>Field</label></h2>
-<h2><input id="p4" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
-<label>File</label></h2>
-<h2><button class="w3-button w3-red " onclick="function1()">submit answer</button></h2>
-</div>
-<div id="demo" class="w3-container"><h2></h2></div>
-
-<script>
-function function1()
-{var x=document.getElementById("p1").checked;
-var y=document.getElementById("p2").checked;
-var z=document.getElementById("p3").checked;
-var w=document.getElementById("p4").checked;
-if((x)&&(!y)&&(!z)&&(!w))
-  document.getElementById("demo").innerHTML="wrong answer";
-else if((!x)&&(y)&&(!z)&&(!w))
-   document.getElementById("demo").innerHTML="wrong answer";
-else if((!x)&&(!y)&&(z)&&(!w))
-   document.getElementById("demo").innerHTML="CONGRATULATIONS! right answer";
-else if((!x)&&(!y)&&(!z)&&(w))
-   document.getElementById("demo").innerHTML="wrong answer";
-else
-   document.getElementById("demo").innerHTML="choose one";}
-</script>
-<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
-<h2>'OS' computer abbreviation usually means?</h2></div>
-<div class="w3-container w3-brown  w3-text-yellow">
-<h2><input id="p11" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
-<label>Operating System</label></h2>
-<h2><input id="p22" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
-<label>Open Software</label></h2>
-<h2><input id="p33" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
-<label>Optical Sensor</label></h2>
-<h2><input id="p44" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
-<label>Order of Significance</label></h2>
-<h2><button class="w3-button w3-red " onclick="function11()">submit answer</button></h2>
-</div>
-<div id="demo1" class="w3-container"><h2></h2></div>
-
-</div>
-<script>
-function function11()
-{var x=document.getElementById("p11").checked;
-var y=document.getElementById("p22").checked;
-var z=document.getElementById("p33").checked;
-var w=document.getElementById("p44").checked;
-if((!x)&&(!y)&&(z)&&(!w))
-  document.getElementById("demo1").innerHTML="wrong answer";
-else if((!x)&&(y)&&(!z)&&(!w))
-   document.getElementById("demo1").innerHTML="wrong answer";
-else if((x)&&(!y)&&(!z)&&(!w))
-   document.getElementById("demo1").innerHTML="CONGRATULATIONS! right answer";
-else if((!x)&&(!y)&&(!z)&&(w))
-   document.getElementById("demo1").innerHTML="wrong answer";
-else
-   document.getElementById("demo1").innerHTML="choose one";}
-</script>
-<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
-<h2>'.MOV' extension refers usually to what kind of file?</h2></div>
-<div class="w3-container w3-brown  w3-text-yellow">
-<h2><input id="pa" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
-<label>image file</label></h2>
-<h2><input id="pb" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
-<label>Animation/movie file</label></h2>
-<h2><input id="pc" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
+	<div class="w3-card-4 w3-blue;">
+		<div class="w3-container w3-circle w3-serif w3-card-4 w3-red w3-leftbar w3-center"> <img src="https://media3.giphy.com/media/l3vR85PnGsBwu1PFK/source.gif" style="width:20%">
+			<h1>KAUN BNEGA TECHPATI</h1> </div>
+		<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
+			<h2>what is the part of database that holds only one type of information?</h2></div>
+		<div class="w3-container w3-brown  w3-text-yellow">
+			<h2><input id="p1" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
+                           <label>Report</label></h2>
+			<h2><input id="p2" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
+                           <label>Record</label></h2>
+			<h2><input id="p3" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
+                           <label>Field</label></h2>
+			<h2><input id="p4" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
+                           <label>File</label></h2>
+			<h2><button class="w3-button w3-red " onclick="function1()">submit answer</button></h2> </div>
+		<div id="demo" class="w3-container">
+			<h2></h2></div>
+		<script>
+		function function1() {
+			var x = document.getElementById("p1").checked;
+			var y = document.getElementById("p2").checked;
+			var z = document.getElementById("p3").checked;
+			var w = document.getElementById("p4").checked;
+			if((x) && (!y) && (!z) && (!w)) document.getElementById("demo").innerHTML = "wrong answer";
+			else if((!x) && (y) && (!z) && (!w)) document.getElementById("demo").innerHTML = "wrong answer";
+			else if((!x) && (!y) && (z) && (!w)) document.getElementById("demo").innerHTML = "CONGRATULATIONS! right answer";
+			else if((!x) && (!y) && (!z) && (w)) document.getElementById("demo").innerHTML = "wrong answer";
+			else document.getElementById("demo").innerHTML = "choose one";
+		}
+		</script>
+		<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
+			<h2>'OS' computer abbreviation usually means?</h2></div>
+		<div class="w3-container w3-brown  w3-text-yellow">
+			<h2><input id="p11" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
+                <label>Operating System</label></h2>
+			<h2><input id="p22" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
+                 <label>Open Software</label></h2>
+			<h2><input id="p33" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
+                <label>Optical Sensor</label></h2>
+			<h2><input id="p44" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
+                <label>Order of Significance</label></h2>
+			<h2><button class="w3-button w3-red " onclick="function11()">submit answer</button></h2> </div>
+		<div id="demo1" class="w3-container">
+			<h2></h2></div>
+	</div>
+	<script>
+	function function11() {
+		var x = document.getElementById("p11").checked;
+		var y = document.getElementById("p22").checked;
+		var z = document.getElementById("p33").checked;
+		var w = document.getElementById("p44").checked;
+		if((!x) && (!y) && (z) && (!w)) document.getElementById("demo1").innerHTML = "wrong answer";
+		else if((!x) && (y) && (!z) && (!w)) document.getElementById("demo1").innerHTML = "wrong answer";
+		else if((x) && (!y) && (!z) && (!w)) document.getElementById("demo1").innerHTML = "CONGRATULATIONS! right answer";
+		else if((!x) && (!y) && (!z) && (w)) document.getElementById("demo1").innerHTML = "wrong answer";
+		else document.getElementById("demo1").innerHTML = "choose one";
+	}
+	</script>
+	<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
+		<h2>'.MOV' extension refers usually to what kind of file?</h2></div>
+	<div class="w3-container w3-brown  w3-text-yellow">
+		<h2><input id="pa" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
+           <label>image file</label></h2>
+		<h2><input id="pb" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
+           <label>Animation/movie file</label></h2>
+		<h2><input id="pc" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
 <label>Audio file</label></h2>
-<h2><input id="pd" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
+		<h2><input id="pd" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
 <label>MS Office document</label></h2>
-<h2><button class="w3-button w3-red " onclick="functiona()">submit answer</button></h2>
-</div>
-<div id="demoa" class="w3-container"><h2></h2></div>
-
-</div>
-<script>
-function functiona()
-{var x=document.getElementById("pa").checked;
-var y=document.getElementById("pb").checked;
-var z=document.getElementById("pc").checked;
-var w=document.getElementById("pd").checked;
-if(x&&(!y)&&(!z)&&(!w))
-  document.getElementById("demoa").innerHTML="wrong answer";
-else if((!x)&&(!y)&&(z)&&(!w))
-   document.getElementById("demoa").innerHTML="wrong answer";
-else if((!x)&&(y)&&(!z)&&(!w))
-   document.getElementById("demoa").innerHTML="CONGRATULATIONS! right answer";
-else if((!x)&&(!y)&&(!z)&&(w))
-   document.getElementById("demoa").innerHTML="wrong answer";
-else
-   document.getElementById("demoa").innerHTML="choose one";}
-</script>
-<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
-<h2>What is a type of Electrically-Eraseable Programmable Read-Only Memory?</h2></div>
-<div class="w3-container w3-brown  w3-text-yellow">
-<h2><input id="paa" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
+		<h2><button class="w3-button w3-red " onclick="functiona()">submit answer</button></h2> </div>
+	<div id="demoa" class="w3-container">
+		<h2></h2></div>
+	</div>
+	<script>
+	function functiona() {
+		var x = document.getElementById("pa").checked;
+		var y = document.getElementById("pb").checked;
+		var z = document.getElementById("pc").checked;
+		var w = document.getElementById("pd").checked;
+		if(x && (!y) && (!z) && (!w)) document.getElementById("demoa").innerHTML = "wrong answer";
+		else if((!x) && (!y) && (z) && (!w)) document.getElementById("demoa").innerHTML = "wrong answer";
+		else if((!x) && (y) && (!z) && (!w)) document.getElementById("demoa").innerHTML = "CONGRATULATIONS! right answer";
+		else if((!x) && (!y) && (!z) && (w)) document.getElementById("demoa").innerHTML = "wrong answer";
+		else document.getElementById("demoa").innerHTML = "choose one";
+	}
+	</script>
+	<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
+		<h2>What is a type of Electrically-Eraseable Programmable Read-Only Memory?</h2></div>
+	<div class="w3-container w3-brown  w3-text-yellow">
+		<h2><input id="paa" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
 <label>Flash</label></h2>
-<h2><input id="pbb" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
+		<h2><input id="pbb" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
 <label>Flange</label></h2>
-<h2><input id="pcc" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
+		<h2><input id="pcc" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
 <label>Fury</label></h2>
-<h2><input id="pdd" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
+		<h2><input id="pdd" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
 <label>FRAM</label></h2>
-<h2><button class="w3-button w3-red " onclick="functionaa()">submit answer</button></h2>
-</div>
-<div id="demoaa" class="w3-container"><h2></h2></div>
-
-</div>
-<script>
-function functionaa()
-{var x=document.getElementById("paa").checked;
-var y=document.getElementById("pbb").checked;
-var z=document.getElementById("pcc").checked;
-var w=document.getElementById("pdd").checked;
-if((!x)&&(!y)&&(z)&&(!w))
-  document.getElementById("demoaa").innerHTML="wrong answer";
-else if((!x)&&(y)&&(!z)&&(!w))
-   document.getElementById("demoaa").innerHTML="wrong answer";
-else if((x)&&(!y)&&(!z)&&(!w))
-   document.getElementById("demoaa").innerHTML="CONGRATULATIONS! right answer";
-else if((!x)&&(!y)&&(!z)&&(w))
-   document.getElementById("demoaa").innerHTML="wrong answer";
-else
-   document.getElementById("demoaa").innerHTML="choose one";}
-</script>
-<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
-<h2>which one is the first search engine in internet?</h2></div>
-<div class="w3-container w3-brown  w3-text-yellow">
-<h2><input id="paaa" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
+		<h2><button class="w3-button w3-red " onclick="functionaa()">submit answer</button></h2> </div>
+	<div id="demoaa" class="w3-container">
+		<h2></h2></div>
+	</div>
+	<script>
+	function functionaa() {
+		var x = document.getElementById("paa").checked;
+		var y = document.getElementById("pbb").checked;
+		var z = document.getElementById("pcc").checked;
+		var w = document.getElementById("pdd").checked;
+		if((!x) && (!y) && (z) && (!w)) document.getElementById("demoaa").innerHTML = "wrong answer";
+		else if((!x) && (y) && (!z) && (!w)) document.getElementById("demoaa").innerHTML = "wrong answer";
+		else if((x) && (!y) && (!z) && (!w)) document.getElementById("demoaa").innerHTML = "CONGRATULATIONS! right answer";
+		else if((!x) && (!y) && (!z) && (w)) document.getElementById("demoaa").innerHTML = "wrong answer";
+		else document.getElementById("demoaa").innerHTML = "choose one";
+	}
+	</script>
+	<div class="w3-container w3-round-xlarge w3-red w3-leftbar">
+		<h2>which one is the first search engine in internet?</h2></div>
+	<div class="w3-container w3-brown  w3-text-yellow">
+		<h2><input id="paaa" class="w3-check w3-hover-green w3-animate-input " type="checkbox" >
 <label>Google</label></h2>
-<h2><input id="pbbb" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
+		<h2><input id="pbbb" class="w3-check w3-hover-green w3-animate-input w3-xlarge " type="checkbox">
 <label>Archie</label></h2>
-<h2><input id="pccc" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
+		<h2><input id="pccc" class="w3-check w3-animate-input w3-hover-green w3-xlarge" type="checkbox">
 <label>Altavista</label></h2>
-<h2><input id="pddd" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
+		<h2><input id="pddd" class="w3-check w3-animate-input w3-hover-green" type="checkbox">
 <label>WAIS</label></h2>
-<h2><button class="w3-button w3-red " onclick="functionaaa()">submit answer</button></h2>
-</div>
-<div id="demoaaa" class="w3-container"><h2></h2></div>
-
-</div>
-<script>
-function functionaaa()
-{var x=document.getElementById("paaa").checked;
-var y=document.getElementById("pbbb").checked;
-var z=document.getElementById("pccc").checked;
-var w=document.getElementById("pddd").checked;
-if(x&&(!y)&&(!z)&&(!w))
-  document.getElementById("demoaaa").innerHTML="wrong answer";
-else if((!x)&&(!y)&&(z)&&(!w))
-   document.getElementById("demoaaa").innerHTML="wrong answer";
-else if((!x)&&(y)&&(!z)&&(!w))
-   document.getElementById("demoaaa").innerHTML="CONGRATULATIONS! right answer";
-else if((!x)&&(!y)&&(!z)&&(w))
-   document.getElementById("demoaaa").innerHTML="wrong answer";
-else
-   document.getElementById("demoaaa").innerHTML="choose one";}
-</script>
-<div class="w3-panel w3-round-xlarge w3-red w3-card-4">
-<button class="w3-button w3-green w3-hover-yellow" onclick="finalfunc()">RESULT</button>
-<h2 id="yes"></h2>
-</div>
-
-<script>
-function finalfunc()
-{var x=document.getElementById("p1").checked;
-var y=document.getElementById("p2").checked;
-var z=document.getElementById("p3").checked;
-var w=document.getElementById("p4").checked;
-var x1=document.getElementById("p11").checked;
-var y1=document.getElementById("p22").checked;
-var z1=document.getElementById("p33").checked;
-var w1=document.getElementById("p44").checked;
-var xa=document.getElementById("pa").checked;
-var yb=document.getElementById("pb").checked;
-var zc=document.getElementById("pc").checked;
-var wd=document.getElementById("pd").checked;
-var xaa=document.getElementById("paa").checked;
-var ybb=document.getElementById("pbb").checked;
-var zcc=document.getElementById("pcc").checked;
-var wdd=document.getElementById("pdd").checked;
-var xaaa=document.getElementById("paaa").checked;
-var ybbb=document.getElementById("pbbb").checked;
-var zccc=document.getElementById("pccc").checked;
-var wddd=document.getElementById("pddd").checked;
-var sum=0;
-if((!x)&&(!y)&&(z)&&(!w))
-  sum=sum+100;
-if(x1&&(!y1)&&(!z1)&&(!w1))
-  sum=sum+100;
-if((!xa)&&(yb)&&(!zc)&&(!wd))
-  sum=sum+100;
-if(xaa&&(!ybb)&&(!zcc)&&(!wdd))
-  sum=sum+100;
-if((!xaaa)&&(ybbb)&&(!zccc)&&(!wddd))
-  sum=sum+100;
-if(sum==500)
-   document.getElementById("yes").innerHTML="GREAT! YOU GOT "+sum+" MARKS.YOU ARE A TECHPATI";
-else
-   document.getElementById("yes").innerHTML="YOU GOT "+sum+" MARKS";}
-</script>
-</div>
+		<h2><button class="w3-button w3-red " onclick="functionaaa()">submit answer</button></h2> </div>
+	<div id="demoaaa" class="w3-container">
+		<h2></h2></div>
+	</div>
+	<script>
+	function functionaaa() {
+		var x = document.getElementById("paaa").checked;
+		var y = document.getElementById("pbbb").checked;
+		var z = document.getElementById("pccc").checked;
+		var w = document.getElementById("pddd").checked;
+		if(x && (!y) && (!z) && (!w)) document.getElementById("demoaaa").innerHTML = "wrong answer";
+		else if((!x) && (!y) && (z) && (!w)) document.getElementById("demoaaa").innerHTML = "wrong answer";
+		else if((!x) && (y) && (!z) && (!w)) document.getElementById("demoaaa").innerHTML = "CONGRATULATIONS! right answer";
+		else if((!x) && (!y) && (!z) && (w)) document.getElementById("demoaaa").innerHTML = "wrong answer";
+		else document.getElementById("demoaaa").innerHTML = "choose one";
+	}
+	</script>
+	<div class="w3-panel w3-round-xlarge w3-red w3-card-4">
+		<button class="w3-button w3-green w3-hover-yellow" onclick="finalfunc()">RESULT</button>
+		<h2 id="yes"></h2> </div>
+	<script>
+	function finalfunc() {
+		var x = document.getElementById("p1").checked;
+		var y = document.getElementById("p2").checked;
+		var z = document.getElementById("p3").checked;
+		var w = document.getElementById("p4").checked;
+		var x1 = document.getElementById("p11").checked;
+		var y1 = document.getElementById("p22").checked;
+		var z1 = document.getElementById("p33").checked;
+		var w1 = document.getElementById("p44").checked;
+		var xa = document.getElementById("pa").checked;
+		var yb = document.getElementById("pb").checked;
+		var zc = document.getElementById("pc").checked;
+		var wd = document.getElementById("pd").checked;
+		var xaa = document.getElementById("paa").checked;
+		var ybb = document.getElementById("pbb").checked;
+		var zcc = document.getElementById("pcc").checked;
+		var wdd = document.getElementById("pdd").checked;
+		var xaaa = document.getElementById("paaa").checked;
+		var ybbb = document.getElementById("pbbb").checked;
+		var zccc = document.getElementById("pccc").checked;
+		var wddd = document.getElementById("pddd").checked;
+		var sum = 0;
+		if((!x) && (!y) && (z) && (!w)) sum = sum + 100;
+		if(x1 && (!y1) && (!z1) && (!w1)) sum = sum + 100;
+		if((!xa) && (yb) && (!zc) && (!wd)) sum = sum + 100;
+		if(xaa && (!ybb) && (!zcc) && (!wdd)) sum = sum + 100;
+		if((!xaaa) && (ybbb) && (!zccc) && (!wddd)) sum = sum + 100;
+		if(sum == 500) document.getElementById("yes").innerHTML = "GREAT! YOU GOT " + sum + " MARKS.YOU ARE A TECHPATI";
+		else document.getElementById("yes").innerHTML = "YOU GOT " + sum + " MARKS";
+	}
+	</script>
+	</div>
 </body>
+
 </html>
+   
